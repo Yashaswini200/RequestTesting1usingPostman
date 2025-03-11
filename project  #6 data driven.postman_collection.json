@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "41fd54c7-0d7b-43c7-bac7-1d25f56d5695",
+		"name": "project  #6 data driven",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32167692",
+		"_collection_link": "https://yashu8.postman.co/workspace/yashu~9ebece85-e734-4ec1-8576-44760678c52c/collection/32167692-41fd54c7-0d7b-43c7-bac7-1d25f56d5695?action=share&source=collection_link&creator=32167692"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"{{$email}}\",\r\n    \"password\":\"{{$password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register/preprod",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register",
+						"preprod"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
